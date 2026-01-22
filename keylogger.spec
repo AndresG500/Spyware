@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['GTAV.pyw'],
+    ['keylogger.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='GTAV',
+    name='keylogger',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
